@@ -1,5 +1,7 @@
 'use strict';
 
+import './index.css';
+
 feather.replace();
 
 const controls = document.querySelector('.controls');
