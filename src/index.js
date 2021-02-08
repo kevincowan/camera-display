@@ -126,7 +126,7 @@ function handleStream (stream) {
     });
   }
 
-  console.log('Hello71');
+  console.log('Hello75');
 
   window.stream = stream; // make stream available to console
   video.srcObject = stream;
