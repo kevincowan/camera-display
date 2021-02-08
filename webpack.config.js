@@ -1,19 +1,13 @@
-/*
-module.exports={
-    mode: "development",
-    devServer: {
-        hot: true
-    }
-}
-*/
+const path = require('path');
+
 module.exports = {
-    mode: 'development',       // we had this already
-    entry: './src/index.js',   // don't think we need this, should be the default
+    mode: 'development',
+    entry: './src/index.js',
     output: {
-      filename: 'main.js',     // should be default as well I think
-      path: path.resolve(__dirname, 'dist'),   // should be default
+      filename: 'main.js',
+      path: path.resolve(__dirname, 'dist'),
     },
     devServer: {
-      contentBase: './dist',   // I think _this_ is the key change
+      contentBase: './dist',
     },
   };
