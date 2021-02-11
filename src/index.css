@@ -26,8 +26,8 @@ video {
 
 .video-options {
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 40px;
+    top: 40px;
 }
 
 .controls {
@@ -109,4 +109,4 @@ border: 2px solid #00B541;
   }
 }
 
-/* Test2 */
+/* Test4 */

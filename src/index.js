@@ -128,8 +128,6 @@ function handleStream (stream) {
     });
   }
 
-  console.log('Hello75');
-
   window.stream = stream; // make stream available to console
   video.srcObject = stream;
   play.classList.add('d-none');
@@ -139,5 +137,3 @@ function handleStream (stream) {
 };
 
 getCameraSelection();
-
-// Test70
